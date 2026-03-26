@@ -1,0 +1,72 @@
+
+.wishlist-page {
+  position: fixed;
+  top: 0;
+  right: 0;
+  max-width: 450px;
+  height: 100vh;
+  z-index: 9999;
+  animation: slideIn 0.3s ease;
+  background: white; /* ADD THIS */
+  padding: 20px; /* optional: adds spacing inside the page */
+  overflow-y: auto; /* allows scrolling if content is long */
+  
+}
+
+.wishlist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.close-btn {
+  background: #d9415d;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+}
+
+.wishlist-card {
+  background: white;
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.wishlist-card img {
+  width: 100px;
+  border-radius: 12px;
+}
+
+.wishlist-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cart-btn {
+  background: #d9415d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 160px;
+}
+
+
+.remove {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 18px;
+}
+
+
